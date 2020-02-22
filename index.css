@@ -1,0 +1,282 @@
+html{
+    height: 150%;
+}
+
+.head {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 45%;
+    top: 31%;
+    background: yellow;
+}
+
+.body {
+    border: 2px solid black;
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    left: 45%;
+    top:46.5%;
+    background: pink;
+
+}
+
+
+.left.arm{
+    width: 30px;
+	height: 60px;
+	border-bottom: 20px solid black;
+    border-left: 20px solid black;
+}
+.right.arm {
+    width: 30px;
+	height: 60px;
+	border-bottom: 20px solid black;
+    border-left: 20px solid black;
+
+}
+
+.right.binti {
+    border: 3px solid black;
+    width: 35px;
+    height: 120px;
+    background: black;
+}
+
+.left.binti {
+    border: 3px solid black;
+    width: 35px;
+    height: 120px;
+    background: black;
+
+}
+.right.hita {
+    border: 3px solid black;
+    width: 35px;
+    height: 70px;
+    background: orange;
+}
+
+.left.hita {
+    border: 3px solid black;
+    width: 35px;
+    height: 70px;
+    background: orange;
+}
+
+.right.paa {
+    border-bottom: 20px solid blue;
+    border-left: 2px solid blue;
+    border-right: 20px solid transparent;
+    width: 37px;
+
+}
+
+.left.paa {
+    border-bottom: 20px solid blue;
+    border-left: 2px solid blue;
+    border-right: 20px solid transparent;
+    width: 37px;
+    position: absolute;
+}
+
+.move2 .left.arm{
+    left: 43%;
+    top: 48%;
+    transform: rotateZ(60deg);
+    z-index: -1;
+    position: absolute;
+
+}
+
+.move2 .right.arm {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: rotateZ(-50deg);
+
+
+}
+
+.move2 .right.binti{
+    position: absolute;
+    left: 45%;
+    top: 70%;
+
+}
+
+.move2 .left.binti {
+    position: absolute;
+    left: 49%;
+    top: 67%;
+    background: black;
+    transform: rotateZ(-40deg);
+    z-index: -1;
+}
+
+.move2 .right.hita {
+position: absolute;
+left: 45%;
+top: 89%;
+
+}
+
+
+.move2 .left.hita {
+
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    transform: rotateZ(47deg);
+    z-index: -1;
+
+}
+
+.move2 .right.paa {
+
+    position: absolute;
+    left: 45%;
+    top: 100%;
+}
+
+.move2 .left.paa {
+    position: absolute;
+    left: 47.5%;
+    top: 87.5%;
+    transform: rotateZ(47deg);
+}
+
+.move0 .right.arm {
+    position: absolute;
+    z-index: 1;
+    left: 42.5%;
+    top: 50%;
+    transform: rotateZ(40deg)
+
+
+}
+
+.move0 .left.arm {
+    z-index: -1;
+    position: absolute;
+    left: 50.5%;
+    top: 50%;
+    transform: rotateZ(-25deg);
+
+
+}
+
+.move0 .right.binti {
+
+    position: absolute;
+    left: 45%;
+    top: 70%;
+}
+
+.move0 .left.binti {
+
+    position: absolute;
+    left: 49.6%;
+    top: 70%;
+
+}
+
+.move0 .right.hita {
+    position: absolute;
+    left: 45%;
+    top: 89%;
+
+}
+
+.move0 .left.hita {
+    position: absolute;
+    left: 49.6%;
+    top: 89%;
+
+}
+
+.move0 .right.paa {
+
+    position: absolute;
+    left: 45%;
+    top: 100%;
+}
+
+.move0 .left.paa {
+
+    position: absolute;
+    left: 49.6%;
+    top: 100%;
+}
+
+
+.move1 .right.arm {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+
+}
+
+
+.move1 .left.arm {
+    position: absolute;
+    left: 44%;
+    z-index: -1;
+    top: 50%;
+    transform: rotateZ(25deg);
+
+
+}
+
+.move1 .left.hita {
+
+    position: absolute;
+    left: 50%;
+    top: 84.1%;
+    z-index: -1;
+
+
+}
+
+.move1 .right.hita {
+
+    position: absolute;
+    top:89%;
+    left: 45%;
+    z-index: -2;
+}
+
+.move1 .right.binti {
+    position: absolute;
+    top: 70%;
+    left:45%;
+
+}
+
+.move1 .right.paa {
+    position: absolute;
+    top: 100%;
+    left:45%;
+
+}
+
+
+.move1 .left.binti {
+
+    position: absolute;
+    left: 48%;
+    top: 68%;
+    z-index:-2;
+    transform:rotateZ(-30deg);
+
+}
+
+.move1 .left.paa {
+
+    position: absolute;
+    left: 50%;
+    top: 95%;
+}
